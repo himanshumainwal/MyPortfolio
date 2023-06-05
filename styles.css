@@ -1,0 +1,292 @@
+* {
+    margin: 0;
+    padding: o;
+}
+
+/* utility classess */
+
+.heading {
+    font-size: 2.5rem;
+    text-align: center;
+    padding: 26px 0;
+
+}
+
+.sub-heading {
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+}
+
+/* Navigation */
+
+.nav {
+    display: flex;
+    align-items: center;
+    height: 2.6rem;
+    width: 100%;
+    top: 0;
+    justify-content: space-between;
+    /* border: 2px solid yellowgreen; */
+    background-color: rgb(52, 49, 49);
+    padding: 6px 20px;
+    position: fixed;
+
+}
+
+
+.nav .logo {
+    font-size: 1.3rem;
+    font-weight: bold;
+    padding: 0 30px;
+
+}
+
+.nav ul {
+    list-style: none;
+    display: flex;
+    text-decoration: none;
+    cursor: pointer;
+
+
+}
+
+.nav ul a {
+    color: rgb(210, 203, 203);
+    /* padding: 0 11px; */
+    text-decoration: none;
+    margin: 4px 13px;
+
+
+}
+
+.nav ul a:hover {
+    color: white;
+
+}
+
+/* Home */
+
+
+#home {
+    color: white;
+    /* border: 2px solid green; */
+}
+
+#home::before {
+    content: '';
+    position: absolute;
+    background: url("background\ image.jpeg") no-repeat center center/cover;
+    top: 0;
+    left: 0;
+    height: 100vh;
+    width: 100vw;
+    z-index: -1;
+    /* opacity: 1; */
+
+}
+
+.home-title {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    /* margin-bottom: 60px; */
+    /* font-size: 2rem; */
+
+}
+
+#home .main-heading {
+    margin: 16px auto;
+    font-size: 4rem;
+}
+
+#home .sec-heading {
+    font-size: 1.7rem;
+}
+
+/* About me */
+
+#about {
+    padding: 50px 0;
+    margin: 50px 40px;
+    /* border: 2px solid red; */
+
+}
+
+#about .container {
+    display: flex;
+    font-size: 1rem;
+}
+
+#about .detail {
+    display: flex;
+    justify-content: space-between;
+
+}
+
+#about img {
+    object-fit: cover;
+    object-position: 25% 5%;
+    width: 400px;
+    height: 400px;
+    margin-right: 34px;
+    padding-left: 12px;
+
+}
+
+/* Services */
+
+#services {
+    /* border: 2px solid red; */
+    margin: 0 40px;
+    padding: 40px 0;
+}
+
+
+
+#services .ser-main {
+    /* border: 2px solid red; */
+    height: 550px;
+    display: grid;
+    grid-template-columns: 33% 33% 33%;
+    padding: 0 25px;
+
+}
+
+#services .ser-main .ser-item {
+    border: 1px solid rgb(210, 205, 205);
+    margin: 20px 12px;
+    padding: 11px 20px;
+    border-radius: 4px;
+
+
+}
+
+#services .sub-heading {
+    margin-top: 15px;
+}
+
+/* Portfolio */
+
+#portfolio {
+    /* border: 2px solid red; */
+    margin: 40px 40px;
+    padding: 40px 0;
+    /* padding-left: 30px; */
+}
+
+#portfolio .por-main {
+    display: grid;
+    /* border: 2px solid yellow; */
+    grid-template-columns: 31% 31% 31%;
+    justify-content: center;
+    /* padding: 0 25px; */
+    grid-gap: 1.3rem;
+}
+
+#portfolio .por-box img {
+    width: 100%;
+    height: 250px;
+}
+
+#portfolio .box {
+    border: 1px solid rgb(210, 205, 205);
+    padding: 14px;
+    margin-bottom: 30px;
+}
+
+#portfolio .box .button {
+
+    text-align: center;
+
+}
+
+#portfolio .box button {
+    background-color: rgb(46, 157, 46);
+    color: white;
+    padding: 5px 15px;
+    border-radius: 6px;
+    cursor: pointer;
+}
+
+#portfolio .box button:hover{
+    background-color: green;
+}
+
+/* Contact */
+
+#contact {
+    /* border: 2px solid red; */
+    margin: 40px 40px;
+    padding: 50px 30px;
+
+}
+
+#contact .con-box {
+    display: flex;
+    justify-content: space-between;
+
+}
+
+#contact form button {
+    margin: 5px 0;
+    color: white;
+    background-color: rgb(74, 152, 74);
+    cursor: pointer;
+    padding: 5px 12px;
+    border-radius: 2px;
+}
+
+#contact form button:hover {
+    background-color: green;
+}
+
+#contact form input {
+    width: 630px;
+    padding: 8px;
+    margin-bottom: 15px;
+    border-radius: 6px;
+    border-color: rgb(239, 234, 234);
+}
+
+#contact form textarea {
+    width: 630px;
+    margin-bottom: 15px;
+    border-radius: 6px;
+    border-color: rgb(239, 234, 234);
+    height: 150px;
+}
+
+
+/* Google Map */
+
+
+#google-maps-canvas img.text-marker {
+    max-width: none !important;
+    background: none !important;
+}
+
+img {
+    max-width: none
+}
+
+/* Footer */
+
+footer {
+    /* border: 2px solid red; */
+    background-color: rgb(107, 102, 102);
+    padding: 15px 0;
+    text-align: center;
+   
+}
+
+footer a {
+    color: black;
+    margin: 0 7px;
+    padding: 12px 0;
+}
+
+footer a:hover {
+    color: green;
+}

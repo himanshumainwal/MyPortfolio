@@ -1,0 +1,115 @@
+.nav {
+    justify-content: center;
+    width: 100%;
+}
+/* Home */
+
+/* #home::before {
+    content: '';
+    position: absolute;
+    background: url("background\ image.jpeg") no-repeat center/cover;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    z-index: -1;
+    opacity: 1;
+}*/
+
+
+/* #home {
+    height: 100vh;
+    width: 100%;
+   
+} */
+#home .home-title {
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content: center;
+text-align: center;
+
+}
+
+
+/* About */
+
+
+#about .container {
+    flex-wrap: wrap;
+    justify-content: center;
+}
+#about .detail {
+    flex-wrap: wrap;
+
+}
+#about img {
+   
+   width: 100%;
+   height: 100%;
+   margin-bottom: 20px;
+}
+/* #services */
+
+
+#services .ser-main {
+    grid-template-columns: auto; 
+    height: 100%;
+
+}
+
+/* #portfolio */
+
+
+#portfolio .por-box img {
+     width: 100%;
+    height: 250px;
+}
+
+
+#portfolio .box {
+    /* padding: auto; */
+    width: 100%;
+}
+
+
+#portfolio .por-main {
+    grid-template-columns: auto;
+    justify-content: center;
+    align-content: center;
+
+
+}
+/* Contact */
+
+#contact form input{
+    width: 100%;
+    height: 100%;
+}
+
+#contact form textarea {
+    width: 100%;
+    height: 100%;
+}
+
+
+#contact .con-box{
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 100%;
+    height: 100%;
+  
+}
+
+#contact .map{
+    width: 100%;
+}
+
+#contact form{
+    margin-top: 40px;
+}
+
+
+ /* Footer */
+footer{
+    width: 100%;
+}
